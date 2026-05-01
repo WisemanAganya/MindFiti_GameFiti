@@ -10,17 +10,17 @@ const Testimonials = () => {
 
   const FALLBACK_TESTIMONIALS: Testimonial[] = [
     {
-      imgSrc: 'https://via.placeholder.com/150?text=Alex',
+      imgSrc: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=150&q=80', // Athlete 1
       name: 'Alex Rivera',
       quote: 'Mindstrong helped me build small but powerful daily habits. Their resources are approachable and kind.'
     },
     {
-      imgSrc: 'https://via.placeholder.com/150?text=Jessie',
+      imgSrc: 'https://images.unsplash.com/photo-1548690312-e3b507d17a47?w=150&q=80', // Athlete 2
       name: 'Jessie Kim',
       quote: 'The community is supportive and the guided moments have been a huge help in managing stress.'
     },
     {
-      imgSrc: 'https://via.placeholder.com/150?text=Sam',
+      imgSrc: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&q=80', // Athlete 3
       name: 'Sam O\'Neill',
       quote: 'Practical, compassionate, and research-informed — exactly what I was looking for.'
     }

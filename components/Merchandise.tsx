@@ -29,7 +29,7 @@ const MerchandiseCard: React.FC<MerchandiseCardProps> = ({ item }) => {
     <div className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col h-full border border-gray-100 overflow-hidden">
       <div className="relative aspect-square overflow-hidden bg-gray-50">
         <img
-          src={item.images && item.images[currentIndex] ? item.images[currentIndex] : 'https://via.placeholder.com/300'}
+          src={item.images && item.images[currentIndex] ? item.images[currentIndex] : 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80'}
           alt={item.title}
           className="w-full h-full object-contain p-4 mix-blend-multiply transform group-hover:scale-105 transition-transform duration-500"
         />

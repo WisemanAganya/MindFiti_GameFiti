@@ -10,7 +10,7 @@ const Blog = () => {
     const FALLBACK_POSTS: BlogPost[] = [
         {
             slug: 'mindful-breathing-technique',
-            imgSrc: 'https://via.placeholder.com/800x600?text=Breathing',
+            imgSrc: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80', // Breathing/Yoga
             category: 'Practice',
             title: 'A Simple Mindful Breathing Technique',
             author: 'Dr. Maria Lopez',
@@ -20,7 +20,7 @@ const Blog = () => {
         },
         {
             slug: 'building-resilience',
-            imgSrc: 'https://via.placeholder.com/800x600?text=Resilience',
+            imgSrc: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=800&q=80', // Resilience/Support
             category: 'Wellness',
             title: 'Building Resilience Through Small Habits',
             author: 'Team Mindstrong',
@@ -30,7 +30,7 @@ const Blog = () => {
         },
         {
             slug: 'how-to-support-someone',
-            imgSrc: 'https://via.placeholder.com/800x600?text=Support',
+            imgSrc: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80', // Support/Counseling
             category: 'Community',
             title: 'How to Support Someone You Care About',
             author: 'Community Contributor',

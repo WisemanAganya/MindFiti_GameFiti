@@ -42,7 +42,7 @@ const CartDrawer: React.FC = () => {
                         items.map(item => (
                             <div key={item.id} className="flex gap-4 border-b pb-4 last:border-0">
                                 <div className="w-20 h-20 flex-shrink-0 bg-gray-100 rounded overflow-hidden">
-                                    <img src={item.images && item.images[0] ? item.images[0] : 'https://via.placeholder.com/150'} alt={item.title} className="w-full h-full object-cover" />
+                                    <img src={item.images && item.images[0] ? item.images[0] : 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=150&q=80'} alt={item.title} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="flex-1">
                                     <h3 className="font-semibold text-gray-800 line-clamp-1">{item.title}</h3>
