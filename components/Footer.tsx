@@ -22,7 +22,7 @@ const Footer = () => {
   const location = useLocation();
   const { settings } = useSettings();
 
-  if (location.pathname.startsWith('/admin')) {
+  if (location.pathname.startsWith('/ms-admin-portal')) {
     return null;
   }
 

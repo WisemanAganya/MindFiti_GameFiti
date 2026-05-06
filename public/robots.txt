@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /ms-admin-portal
+Disallow: /ms-auth-gateway
+
+Sitemap: https://mindstrong.co.ke/sitemap.xml

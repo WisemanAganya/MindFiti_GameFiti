@@ -51,7 +51,7 @@ const Header = () => {
     return () => observer.current?.disconnect();
   }, []);
 
-  if (location.pathname.startsWith('/admin')) {
+  if (location.pathname.startsWith('/ms-admin-portal')) {
     return null;
   }
 
@@ -89,10 +89,6 @@ const Header = () => {
                 <i className="fas fa-shopping-cart text-lg group-hover:scale-110 transition-transform"></i>
                 {itemCount > 0 && <span className="absolute top-0 right-0 -mt-1 -mr-1 bg-accent text-white text-[10px] font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center shadow-lg shadow-accent/50 animate-pulse-slow">{itemCount}</span>}
               </button>
-
-              <Link to="/admin-login" className="flex items-center gap-2 text-sm font-medium tracking-wide uppercase bg-primary/10 text-primary border border-primary/30 hover:bg-primary hover:text-white transition-all duration-300 px-5 py-2.5 rounded-full shadow-[0_0_15px_rgba(90,172,230,0.1)] hover:shadow-[0_0_20px_rgba(90,172,230,0.4)]">
-                <i className="fas fa-lock text-xs"></i><span>Login</span>
-              </Link>
             </div>
           </div>
           
@@ -101,10 +97,6 @@ const Header = () => {
               <i className="fas fa-shopping-cart text-xl"></i>
               {itemCount > 0 && <span className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center shadow-lg">{itemCount}</span>}
             </button>
-
-            <Link to="/admin-login" className="text-primary text-sm font-bold flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 border border-primary/20">
-              <i className="fas fa-lock"></i>
-            </Link>
             
             <button className="text-white p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <div className="w-6 h-5 flex flex-col justify-between relative">
@@ -139,10 +131,8 @@ const Header = () => {
             </a>
           ))}
         </div>
-        <div className="p-6 border-t border-white/10">
-          <Link to="/admin-login" onClick={() => setIsMenuOpen(false)} className="flex items-center justify-center gap-3 w-full py-4 rounded-xl bg-primary text-white font-bold uppercase tracking-wider shadow-lg shadow-primary/30">
-            <i className="fas fa-lock"></i> Admin Login
-          </Link>
+        <div className="p-6 border-t border-white/10 opacity-20 pointer-events-none">
+          {/* Admin entry point hidden for security */}
         </div>
       </div>
     </header>

@@ -32,7 +32,7 @@ const ProtectedAdminRoute = () => {
   const { isAuthenticated, user } = useAuth();
 
   if (!isAuthenticated) {
-    return <Navigate to="/admin-login" replace />;
+    return <Navigate to="/ms-auth-gateway" replace />;
   }
 
   // Allow admin role OR the specific super admin email
@@ -49,7 +49,7 @@ const LoginPageRedirect = () => {
   const { isAuthenticated } = useAuth();
 
   if (isAuthenticated) {
-    return <Navigate to="/admin" replace />;
+    return <Navigate to="/ms-admin-portal" replace />;
   }
 
   return <LoginPage />;
@@ -73,8 +73,8 @@ const App = () => {
                   <Route path="/track-order" element={<OrderTrackingPage />} />
                   <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
                   <Route path="/terms-of-use" element={<TermsOfUsePage />} />
-                  <Route path="/admin-login" element={<LoginPageRedirect />} />
-                  <Route path="/admin" element={<ProtectedAdminRoute />} />
+                  <Route path="/ms-auth-gateway" element={<LoginPageRedirect />} />
+                  <Route path="/ms-admin-portal" element={<ProtectedAdminRoute />} />
                   {/* Catch-all route for broken links */}
                   <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>

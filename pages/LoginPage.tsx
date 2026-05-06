@@ -16,7 +16,7 @@ const LoginPage: React.FC = () => {
     
     // Redirect to admin dashboard after a brief delay
     setTimeout(() => {
-      navigate('/admin', { replace: true });
+      navigate('/ms-admin-portal', { replace: true });
       setIsLoading(false);
     }, 300);
   };
