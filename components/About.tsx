@@ -14,25 +14,25 @@ const About = () => {
 
   const FALLBACK_EVENTS: TimelineEvent[] = [
     {
-      imgSrc: 'https://images.unsplash.com/photo-1599481238640-4c12727c3c39?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800',
+      imgSrc: '/assets/merch/img/about/IMG-20250520-WA0006.jpg',
       period: '2019 – 2020',
       title: 'The Spark',
       description: 'After sustaining multiple concussions, our founder began publicly speaking about mental health in sports.'
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800',
+      imgSrc: '/assets/merch/img/about/IMG-20250520-WA0010.jpg',
       period: '2020 – 2021',
       title: 'Building Community',
       description: 'Launched #MindFitiGameFiti movement with first cohort of athletes, coaches, and mental health advocates.'
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800',
+      imgSrc: '/assets/merch/img/about/IMG-20250520-WA0011.jpg',
       period: '2022 – 2023',
       title: 'Recognition & Expansion',
       description: 'Gaining national attention with the Tujiamini Silver Award, expanded outreach with mentorship programs.'
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800',
+      imgSrc: '/assets/merch/img/about/IMG-20250520-WA0007.jpg',
       period: '2024 – Present',
       title: 'Digital Growth',
       description: 'Strategic partnerships to integrate mental wellness into sports institutions, plus e-learning platform and podcast.'

@@ -8,9 +8,9 @@ const Services = () => {
   const [error, setError] = useState<string | null>(null);
 
   const FALLBACK_SERVICES: Service[] = [
-    { imgSrc: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80', title: 'Consultation', description: 'One-on-one mental performance consultations for athletes and coaches.', icon: 'fa-comments' },
-    { imgSrc: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&q=80', title: 'Workshops', description: 'Group workshops on mental resilience and concussion awareness.', icon: 'fa-users' },
-    { imgSrc: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80', title: 'E-learning', description: 'Online courses and resources for athletes and support staff.', icon: 'fa-laptop' },
+    { imgSrc: '/assets/merch/img/services/one-on-one.jpg', title: 'Consultation', description: 'One-on-one mental performance consultations for athletes and coaches.', icon: 'fa-comments' },
+    { imgSrc: '/assets/merch/img/services/commmentorship.jpg', title: 'Workshops', description: 'Group workshops on mental resilience and concussion awareness.', icon: 'fa-users' },
+    { imgSrc: '/assets/merch/img/services/worskshop.jpg', title: 'E-learning', description: 'Online courses and resources for athletes and support staff.', icon: 'fa-laptop' },
   ];
 
   useEffect(() => {

@@ -4,7 +4,7 @@ import { api } from '../services/apiService';
 
 const Hero = () => {
   const [settings, setSettings] = React.useState({
-    bgImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1920",
+    bgImage: "/assets/merch/img/theme photo.jpg",
     title: "The Balls To Make \nA Difference",
     subtitle: "#MindFitiGameFiti"
   });

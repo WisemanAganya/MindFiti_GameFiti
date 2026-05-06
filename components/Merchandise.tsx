@@ -96,7 +96,7 @@ const Merchandise = () => {
   const FALLBACK_ITEMS: MerchandiseItem[] = [
     {
       id: 1,
-      images: ['/assets/merch/tshirt.svg'],
+      images: ['/assets/merch/img/portfolio/3.jpg'],
       title: 'Mindstrong Classic T-Shirt',
       description: 'A comfortable, ethically sourced tee featuring our logo. Soft cotton blend, available in multiple sizes.',
       price: 24.99,
@@ -106,7 +106,7 @@ const Merchandise = () => {
     },
     {
       id: 2,
-      images: ['/assets/merch/hoodie.svg'],
+      images: ['/assets/merch/img/portfolio/2.jpg'],
       title: 'Mindstrong Hoodie',
       description: 'Cozy pullover hoodie with embroidered logo — perfect for cool evenings and mindful walks.',
       price: 49.99,
@@ -116,7 +116,7 @@ const Merchandise = () => {
     },
     {
       id: 3,
-      images: ['/assets/merch/mug.svg'],
+      images: ['/assets/merch/img/portfolio/IMG-20250516-WA0006.jpg'],
       title: 'Mindful Mug',
       description: 'Ceramic mug with our signature quote. Microwave and dishwasher safe.',
       price: 12.5,

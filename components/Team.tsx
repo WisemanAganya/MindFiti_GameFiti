@@ -9,9 +9,9 @@ const Team = () => {
   const [error, setError] = useState<string | null>(null);
 
   const FALLBACK_MEMBERS: TeamMember[] = [
-    { imgSrc: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80', name: 'Alex Morgan', role: 'Founder & CEO', social_twitter: '', social_facebook: '', social_linkedin: '' },
-    { imgSrc: 'https://images.unsplash.com/photo-1545996124-1b3bc5f4b4a8?w=800&q=80', name: 'Jamie Lee', role: 'Head of Programs', social_twitter: '', social_facebook: '', social_linkedin: '' },
-    { imgSrc: 'https://images.unsplash.com/photo-1531123414780-f0b60f67f1b1?w=800&q=80', name: 'Chris Patel', role: 'Community Manager', social_twitter: '', social_facebook: '', social_linkedin: '' },
+    { imgSrc: "/assets/merch/img/team/Leon Nyang' Odour.jpg", name: 'Leon Odour Nyang', role: 'Founder & CEO', social_twitter: '', social_facebook: '', social_linkedin: '' },
+    { imgSrc: "/assets/merch/img/team/keng'aya Caroline Bosire.jpg", name: "Keng'aya Caroline Bosire", role: 'Head of Program', social_twitter: '', social_facebook: '', social_linkedin: '' },
+    { imgSrc: '/assets/merch/img/team/Elizabeth Maina.jpg', name: 'Elizabeth Maina', role: 'Community Manager', social_twitter: '', social_facebook: '', social_linkedin: '' },
   ];
 
   useEffect(() => {
