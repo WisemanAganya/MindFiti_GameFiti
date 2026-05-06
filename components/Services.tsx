@@ -57,8 +57,8 @@ const Services = () => {
                     </div>
                   )}
                 </div>
-                <h4 className="text-base sm:text-lg md:text-xl font-bold mb-3 font-montserrat text-neutral-800 group-hover:text-primary transition-colors">{service.title}</h4>
-                <p className="text-gray-600 leading-relaxed text-xs sm:text-sm md:text-base max-w-xs">{service.description}</p>
+                <h4 className="text-base sm:text-lg md:text-xl font-bold mb-3 font-montserrat text-white group-hover:text-primary transition-colors">{service.title}</h4>
+                <p className="text-slate-400 leading-relaxed text-xs sm:text-sm md:text-base max-w-xs">{service.description}</p>
               </div>
             ))}
           </div>

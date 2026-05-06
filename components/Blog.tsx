@@ -20,7 +20,7 @@ const Blog = () => {
         },
         {
             slug: 'building-resilience',
-            imgSrc: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=800&q=80', // Resilience/Support
+            imgSrc: '/assets/merch/img/portfolio/wellness.PNG', // Resilience/Support
             category: 'Wellness',
             title: 'Building Resilience Through Small Habits',
             author: 'Team Mindstrong',
@@ -91,8 +91,8 @@ const Blog = () => {
                                             <span>{post.author}</span>
                                         </div>
 
-                                        <h3 className="text-xl font-bold font-montserrat text-gray-900 mb-3 leading-snug group-hover:text-primary transition-colors line-clamp-2">{post.title}</h3>
-                                        <p className="text-gray-500 text-sm leading-relaxed line-clamp-3 mb-4 flex-grow">{post.content}</p>
+                                        <h3 className="text-xl font-bold font-montserrat text-white mb-3 leading-snug group-hover:text-primary transition-colors line-clamp-2">{post.title}</h3>
+                                        <p className="text-slate-400 text-sm leading-relaxed line-clamp-3 mb-4 flex-grow">{post.content}</p>
 
                                         <div className="mt-auto flex items-center text-primary font-bold text-sm group-hover:translate-x-1 transition-transform">
                                             Read Article <i className="fas fa-arrow-right ml-2 text-xs"></i>

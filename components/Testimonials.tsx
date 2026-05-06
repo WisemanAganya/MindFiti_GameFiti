@@ -10,17 +10,17 @@ const Testimonials = () => {
 
   const FALLBACK_TESTIMONIALS: Testimonial[] = [
     {
-      imgSrc: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=150&q=80', // Athlete 1
+      imgSrc: '/assets/merch/img/portfolio/pic 1.PNG', // Athlete 1
       name: 'Alex Rivera',
       quote: 'Mindstrong helped me build small but powerful daily habits. Their resources are approachable and kind.'
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1548690312-e3b507d17a47?w=150&q=80', // Athlete 2
+      imgSrc: '/assets/merch/img/portfolio/pic 3.PNG', // Athlete 2
       name: 'Jessie Kim',
       quote: 'The community is supportive and the guided moments have been a huge help in managing stress.'
     },
     {
-      imgSrc: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&q=80', // Athlete 3
+      imgSrc: '/assets/merch/img/portfolio/pic 2.PNG', // Athlete 3
       name: 'Sam O\'Neill',
       quote: 'Practical, compassionate, and research-informed — exactly what I was looking for.'
     }
@@ -71,7 +71,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 font-montserrat text-sm">{testimonial.name}</h4>
+                      <h4 className="font-bold text-white font-montserrat text-sm">{testimonial.name}</h4>
                       <div className="flex text-yellow-400 text-xs mt-0.5">
                         <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
                       </div>
@@ -79,7 +79,7 @@ const Testimonials = () => {
                     <div className="ml-auto text-primary/20 text-4xl font-serif">"</div>
                   </div>
 
-                  <p className="text-gray-600 text-sm leading-relaxed italic pl-4 flex-grow">
+                  <p className="text-slate-300 text-sm leading-relaxed italic pl-4 flex-grow">
                     "{testimonial.quote}"
                   </p>
                 </div>

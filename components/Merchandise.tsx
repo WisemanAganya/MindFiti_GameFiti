@@ -55,12 +55,12 @@ const MerchandiseCard: React.FC<MerchandiseCardProps> = ({ item }) => {
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <div>
-            <h4 className="text-base font-bold font-montserrat text-gray-800 leading-tight mb-1 line-clamp-2 min-h-[2.5rem]">{item.title}</h4>
+            <h4 className="text-base font-bold font-montserrat text-white leading-tight mb-1 line-clamp-2 min-h-[2.5rem]">{item.title}</h4>
             {item.sku && <p className="text-[10px] text-gray-400 font-mono tracking-wide">{item.sku}</p>}
           </div>
         </div>
 
-        <p className="text-gray-600 text-sm leading-relaxed line-clamp-3 mb-4 min-h-[3em]">{item.description}</p>
+        <p className="text-slate-300 text-sm leading-relaxed line-clamp-3 mb-4 min-h-[3em]">{item.description}</p>
 
         {item.sizes && item.sizes.length > 0 && (
           <div className="mb-4">

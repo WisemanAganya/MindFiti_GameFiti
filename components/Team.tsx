@@ -51,8 +51,8 @@ const Team = () => {
               {members.map((member, index) => (
                 <div key={index} className="text-center p-6 bg-white rounded-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
                   <img src={member.imgSrc} alt={member.name} className="w-32 sm:w-36 md:w-40 h-32 sm:h-36 md:h-40 mx-auto rounded-full object-cover border-4 border-gray-200 shadow-lg" />
-                  <h4 className="text-base sm:text-lg md:text-xl font-bold mt-4 sm:mt-6 mb-1 font-montserrat text-gray-900">{member.name}</h4>
-                  <p className="text-gray-500 mb-4 text-xs sm:text-sm">{member.role}</p>
+                  <h4 className="text-base sm:text-lg md:text-xl font-bold mt-4 sm:mt-6 mb-1 font-montserrat text-white">{member.name}</h4>
+                  <p className="text-slate-400 mb-4 text-xs sm:text-sm">{member.role}</p>
                   <div className="flex justify-center space-x-3">
                     {member.social_twitter && <a href={member.social_twitter} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"><i className="fab fa-twitter"></i></a>}
                     {member.social_facebook && <a href={member.social_facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"><i className="fab fa-facebook-f"></i></a>}

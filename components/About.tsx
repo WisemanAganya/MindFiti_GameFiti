@@ -101,8 +101,8 @@ const About = () => {
                       {index + 1}
                     </div>
 
-                    <h3 className="text-lg font-bold font-montserrat mb-3 text-gray-800 leading-tight group-hover:text-primary transition-colors">{event.title}</h3>
-                    <p className="text-gray-500 text-sm leading-relaxed mb-4 flex-grow">{event.description}</p>
+                    <h3 className="text-lg font-bold font-montserrat mb-3 text-white leading-tight group-hover:text-primary transition-colors">{event.title}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed mb-4 flex-grow">{event.description}</p>
 
                     <div className="mt-auto pt-4 border-t border-gray-50">
                       <span className="text-xs font-semibold text-primary group-hover:translate-x-1 transition-transform inline-block">Read more &rarr;</span>
